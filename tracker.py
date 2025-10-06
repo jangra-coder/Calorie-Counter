@@ -12,7 +12,6 @@ try:
     how_many_meals = int(input("So, how many meals are we logging today? "))
 except ValueError:
     print("Whoops, that doesn't look like a number. Please restart and enter a number like 1, 2, or 3.")
-    # In a simple script, we can use exit() to stop if there's a critical error.
     exit()
 
 for i in range(how_many_meals):
